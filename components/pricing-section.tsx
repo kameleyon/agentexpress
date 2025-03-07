@@ -10,8 +10,8 @@ const pricingPlans = [
     name: "Starter",
     price: "$49",
     description: "Perfect for small businesses and entrepreneurs",
-    features: ["2 AI Agents", "5,000 interactions/month", "Basic customization", "Email support", "Standard analytics"],
-    highlighted: false,
+    features: ["2 AI Agents", "5000 interactions/month", "Basic customization", "Email support", "Standard analytics"],
+    highlighted: false
   },
   {
     name: "Professional",
@@ -19,14 +19,14 @@ const pricingPlans = [
     description: "Ideal for growing businesses with multiple needs",
     features: [
       "5 AI Agents",
-      "25,000 interactions/month",
+      "25000 interactions/month",
       "Advanced customization",
       "Priority support",
       "Advanced analytics",
       "Multi-agent workflows",
-      "API access",
+      "API access"
     ],
-    highlighted: true,
+    highlighted: true
   },
   {
     name: "Enterprise",
@@ -40,10 +40,10 @@ const pricingPlans = [
       "Custom analytics dashboard",
       "Advanced security features",
       "Custom integrations",
-      "Dedicated account manager",
+      "Dedicated account manager"
     ],
-    highlighted: false,
-  },
+    highlighted: false
+  }
 ]
 
 export default function PricingSection() {
@@ -112,4 +112,3 @@ export default function PricingSection() {
     </section>
   )
 }
-

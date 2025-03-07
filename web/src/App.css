@@ -1,0 +1,27 @@
+/* Additional custom styles that extend Tailwind */
+
+/* You can add any custom styles here that aren't covered by Tailwind */
+
+/* Fix for sticky header */
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+/* Ensure proper spacing for anchor links with fixed header */
+html {
+  scroll-padding-top: 4rem;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure full height layout */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

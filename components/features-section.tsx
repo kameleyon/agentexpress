@@ -9,34 +9,34 @@ const features = [
     icon: <Code className="h-8 w-8" />,
     title: "Zero Code Required",
     description:
-      "Implement AI agents without writing a single line of code. Our platform handles all the technical complexity.",
+      "Implement AI agents without writing a single line of code. Our platform handles all the technical complexity."
   },
   {
     icon: <Zap className="h-8 w-8" />,
     title: "Instant Deployment",
-    description: "Configure and deploy your AI agents in minutes, not weeks. Get up and running immediately.",
+    description: "Configure and deploy your AI agents in minutes not weeks. Get up and running immediately."
   },
   {
     icon: <Shield className="h-8 w-8" />,
     title: "Enterprise Security",
     description:
-      "Bank-grade security and data protection. Your information and AI interactions remain private and secure.",
+      "Bank-grade security and data protection. Your information and AI interactions remain private and secure."
   },
   {
     icon: <Settings className="h-8 w-8" />,
     title: "Easy Customization",
-    description: "Tailor your agents to your specific needs with our intuitive configuration interface.",
+    description: "Tailor your agents to your specific needs with our intuitive configuration interface."
   },
   {
     icon: <Layers className="h-8 w-8" />,
     title: "Multi-Agent Workflows",
-    description: "Create complex workflows by connecting multiple agents together for sophisticated automation.",
+    description: "Create complex workflows by connecting multiple agents together for sophisticated automation."
   },
   {
     icon: <BarChart className="h-8 w-8" />,
     title: "Performance Analytics",
-    description: "Track and optimize your agents' performance with comprehensive analytics and insights.",
-  },
+    description: "Track and optimize your agents' performance with comprehensive analytics and insights."
+  }
 ]
 
 export default function FeaturesSection() {
@@ -77,4 +77,3 @@ export default function FeaturesSection() {
     </section>
   )
 }
-

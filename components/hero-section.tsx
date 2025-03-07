@@ -96,7 +96,7 @@ function ParticlesBackground() {
           size: Math.random() * 2 + 0.5,
           speedX: (Math.random() - 0.5) * 0.5,
           speedY: (Math.random() - 0.5) * 0.5,
-          opacity: Math.random() * 0.5 + 0.1,
+          opacity: Math.random() * 0.5 + 0.1
         })
       }
     }
@@ -139,4 +139,3 @@ function ParticlesBackground() {
 
   return <canvas ref={canvasRef} className="absolute inset-0 w-full h-full"></canvas>
 }
-

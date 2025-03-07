@@ -12,7 +12,7 @@ const testimonials = [
     author: "Sarah Johnson",
     position: "Customer Success Manager",
     company: "TechSolutions Inc.",
-    avatar: "/placeholder.svg?height=80&width=80",
+    avatar: "/placeholder.svg?height=80&width=80"
   },
   {
     quote:
@@ -20,7 +20,7 @@ const testimonials = [
     author: "Michael Chen",
     position: "Founder",
     company: "Artisan Crafts",
-    avatar: "/placeholder.svg?height=80&width=80",
+    avatar: "/placeholder.svg?height=80&width=80"
   },
   {
     quote:
@@ -28,8 +28,8 @@ const testimonials = [
     author: "Jessica Rivera",
     position: "Sales Director",
     company: "Global Enterprises",
-    avatar: "/placeholder.svg?height=80&width=80",
-  },
+    avatar: "/placeholder.svg?height=80&width=80"
+  }
 ]
 
 export default function TestimonialsSection() {
@@ -92,7 +92,7 @@ export default function TestimonialsSection() {
           </div>
           <div className="h-12 w-px bg-white/20"></div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-white mb-2">10,000+</div>
+            <div className="text-4xl font-bold text-white mb-2">10000+</div>
             <p className="text-white/60">AI Agents Deployed</p>
           </div>
           <div className="h-12 w-px bg-white/20"></div>
@@ -105,4 +105,3 @@ export default function TestimonialsSection() {
     </section>
   )
 }
-

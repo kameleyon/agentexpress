@@ -11,38 +11,38 @@ const agents = [
     title: "Customer Service Agent",
     description:
       "Handle customer inquiries 24/7 with a personalized touch. Resolve issues and escalate when necessary.",
-    color: "from-pink-500/20 to-purple-500/20",
+    color: "from-pink-500/20 to-purple-500/20"
   },
   {
     icon: <PenTool className="h-8 w-8" />,
     title: "Content Creation Agent",
     description: "Generate blog posts, social media content, and marketing copy tailored to your brand voice.",
-    color: "from-blue-500/20 to-cyan-500/20",
+    color: "from-blue-500/20 to-cyan-500/20"
   },
   {
     icon: <ShoppingCart className="h-8 w-8" />,
     title: "Sales Assistant Agent",
     description: "Guide customers through your product catalog and help them make informed purchasing decisions.",
-    color: "from-green-500/20 to-emerald-500/20",
+    color: "from-green-500/20 to-emerald-500/20"
   },
   {
     icon: <Calendar className="h-8 w-8" />,
     title: "Scheduling Agent",
     description: "Manage appointments, meetings, and events with natural language processing capabilities.",
-    color: "from-yellow-500/20 to-orange-500/20",
+    color: "from-yellow-500/20 to-orange-500/20"
   },
   {
     icon: <Database className="h-8 w-8" />,
     title: "Data Analysis Agent",
     description: "Process and analyze data to extract valuable insights and generate comprehensive reports.",
-    color: "from-red-500/20 to-rose-500/20",
+    color: "from-red-500/20 to-rose-500/20"
   },
   {
     icon: <Search className="h-8 w-8" />,
     title: "Research Agent",
     description: "Conduct thorough research on any topic and compile findings into organized summaries.",
-    color: "from-indigo-500/20 to-violet-500/20",
-  },
+    color: "from-indigo-500/20 to-violet-500/20"
+  }
 ]
 
 export default function AgentShowcase() {
@@ -100,4 +100,3 @@ export default function AgentShowcase() {
     </section>
   )
 }
-
